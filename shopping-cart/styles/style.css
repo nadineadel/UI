@@ -23,11 +23,12 @@ header {
   font-size: 0;
   width: 44px;
   height: 41px;
-  background: url("../images/logo.png");
-  background-repeat: no-repeat;
   padding: 0;
   float: left;
   margin: 40px 0 50px;
+}
+.navigation-bar span {
+  font-size: 0;
 }
 .navigation-bar__links {
   float: left;
@@ -72,6 +73,12 @@ header {
 }
 .navigation-bar__actions li + li {
   margin: 0 0 0 50px;
+}
+.navigation-bar__actions__user-log-in:before {
+  content: url("../images/user.png");
+}
+.navigation-bar__actions__user-basket:before {
+  content: url("../images/basket.png");
 }
 .navigation-bar__action__search {
   border: 2px solid #959595;
