@@ -74,6 +74,10 @@ header {
 .navigation-bar__actions li + li {
   margin: 0 0 0 50px;
 }
+.navigation-bar__actions__user-log-in:before, .navigation-bar__actions__user-basket:before {
+    position: relative;
+    right: 5px;
+  }
 .navigation-bar__actions__user-log-in:before {
   content: url("../images/user.png");
 }
@@ -81,10 +85,13 @@ header {
   content: url("../images/basket.png");
 }
 .navigation-bar__action__search {
+  background: #fff url("../images/search.png") 50% 50% no-repeat;
+  height: 45px;
+  width: 45px;
   border: 2px solid #959595;
-  padding: 7px 7px;
   position: relative;
   top: -13px;
+  font-size: 0;
 }
 .main-content {
   margin: 149px 0 0;
