@@ -6,10 +6,10 @@
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-  <header class="clearfix">
-    <div class="container clearfix">
+  <div class="container">
+    <header class="navigation-bar clearfix">
+      <h1>SH</h1>
       <nav class="navigation-bar__links">
-        <h1>LOGO</h1>
         <ul>
           <li><a href="#">Woman</a></li>
           <li><a href="#">Men</a></li>
@@ -18,7 +18,7 @@
           <li><a href="#">About</a></li>
         </ul>
       </nav>
-      <div class="navigation-bar__actions clearfix">
+      <div class="navigation-bar__actions">
         <ul>
           <li>
             <a href="#"><img src="images/user.png"></a>
@@ -31,76 +31,70 @@
           <li class="navigation-bar__action__search"><a href="#"><img src="images/search.png" alt="Search"></a></li>
         </ul>
       </div>
-    </div>
-  </header>
-  <div class="new-arrivals__button">
-    <div class="container">
+    </header>
+    <div class="main-content">
       <h1>Hazy Shade of spring</h1>
-      <p class="new-arrivals__line">Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.</p>
-      <p class="new-arrivals__links"><a href="">check new arrivals</a></p>
+      <p class="main-content__line">Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.</p>
+      <p class="main-content__link"><a href="#">check new arrivals</a></p>
     </div>
-  </div>
-  <div class=sign-up>
-    <div class="container">
+    <div class=sign-up>
       <h1>sign up to receive our updates</h1>
       <p>Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat.</p>
-      <form class="sign-up__form">
-        <div class="sign-up__form__container clearfix">
-          <input type="text" class="email" placeholder="Your e-mail" ></input>
-          <input type="submit" value="Add" class="submit">
-        </div>
+      <form class="sign-up__form clearfix">
+        <input type="text" class="sign-up__form__email" placeholder="Your e-mail" />
+        <input type="submit" value="Add" class="submit">
       </form>
     </div>
-  </div>
-  <footer class="clearfix">
-    <div class="container clearfix">
-      <div class="block clearfix">
-        <h2>Collection</h2>
-        <ul>
-         <li><a href="#">Woman</a></li>
-          <li><a href="#">Men</a></li>
-          <li><a href="#">Kids</a></li>
-          <li><a href="#">Comming Soon</a></li>
-        </ul>
-      </div>
-      <div class="block">
-        <h2>Site</h2>
-        <ul>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Copyright Policy</a></li>
-          <li><a href="#">Press Kit</a></li>
-          <li><a href="#">Support</a></li>
-        </ul>
-      </div>
-      <div class="block">
-        <h2>Shop</h2>
-        <ul>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Shipping Methods</a></li>
-          <li><a href="#">Career</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="block">
-        <h2>Social</h2>
-        <ul>
-          <li><a href="#">Shoper is made with love in Warsaw, </a></li>
-          <li><a href="#">2014 &copy; All rights reserved. El Passion </a></li>
-          <ul class="copyright">
-            <li class="wrapper">
-              <a href="#"><img src="images/facebook.png"></a>
-            </li>
-            <li class="wrapper">
-              <a href="#"><img src="images/twitter.png"></a>
-            </li>
-            <li class="wrapper">
-              <a href="#"><img src="images/instagram.png"></a>
-            </li>
+    <footer>
+      <div class="footer-container clearfix">
+        <div class="footer-container__block">
+          <h2>Collection</h2>
+          <ul>
+           <li><a href="#">Woman</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Comming Soon</a></li>
           </ul>
-        </ul>
+        </div>
+        <div class="footer-container__block">
+          <h2>Site</h2>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Copyright Policy</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-container__block">
+          <h2>Shop</h2>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shipping Methods</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-container__block">
+          <h2>Social</h2>
+          <ul>
+            <li><p>Shoper is made with love in Warsaw,<p></li>
+            <li><p>2014 &copy; All rights reserved. El Passion<p></li>
+            <ul class="footer-container__social-links">
+              <li>
+                <a href="#"><img src="images/facebook.png"></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/twitter.png"></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/instagram.png"></a>
+              </li>
+            </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
