@@ -200,11 +200,14 @@ ul.footer-container__social-links {
 /*
   category-list.html
 */
-.category{
+.categories h1 {
+  font-size: 0;
+}
+.categories__sub-category{
   text-align: center;
   margin: 80px 0;
 }
-.category h1{
+.categories__sub-category h2{
   color: #3e3e3e;
   font-size: 36px;
   font-weight: bold;
@@ -212,45 +215,45 @@ ul.footer-container__social-links {
   padding: 10px 0 0 0;
   text-transform: uppercase;
 }
-.category__show-more{
+.categories__sub-category__show-more{
   font-size: 18px;
   font-style: italic;
   color: #606060;
 }
-.category__show-more:after{
+.categories__sub-category__show-more:after{
   content: url("../images/show-more-arrow.png");
   position: relative;
   top: 3px;
   left: 5px;
 }
-.category__list{
+.categories__sub-category__list{
   list-style: none;
   width: 1160px;
   margin: 0 auto;
   padding: 70px 0;
 }
-.category__list li{
+.categories__sub-category__list li{
   float:left;
   width: 25%;
 }
-.category__list img{
+.categories__sub-category__list img{
   border: 2px solid #e5e5e5;
 }
-.category__list a{
+.categories__sub-category__list a{
   text-decoration: none;
 }
-.category__list p, .category__list span {
+.categories__sub-category__list p, ..categories__sub-category__list span {
   text-transform: capitalize;
   font-size: 14px;
   font-weight: bold;
 }
-.category__list p {
+.categories__sub-category__list p {
   color: #303030;
 }
-.category__list span{
+.categories__sub-category__list span{
   color: #7c7c7c;
 }
-.category__list span:before {
+.categories__sub-category__list span:before {
   content: "\20AC";
 }
 
