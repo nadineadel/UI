@@ -32,7 +32,7 @@ header {
 }
 .navigation-bar__links {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 .navigation-bar__links .active{
   border-bottom: 2px solid #222222;
@@ -45,7 +45,6 @@ header {
   list-style: none;
   margin: 53px 25px 50px;
   padding: 0;
-
 }
 .navigation-bar__links li {
   display: inline-block;
@@ -60,13 +59,13 @@ header {
   float: right;
   width: 40%;
 }
-.navigation-bar__actions ul {
+.navigation-bar__actions ul{
   list-style: none;
   margin: 53px 0 50px;
   padding: 0;
   float: right;
 }
-.navigation-bar__actions li {
+.navigation-bar__actions li{
   display: inline-block;
   vertical-align: top;
   float: left;
