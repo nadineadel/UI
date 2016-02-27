@@ -205,6 +205,7 @@ ul.footer-container__social-links {
   font-weight: bold;
   margin: 0;
   padding: 10px 0 0 0;
+  text-transform: uppercase;
 }
 .category__show-more{
   font-size: 18px;
