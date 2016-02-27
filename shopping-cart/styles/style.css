@@ -27,7 +27,7 @@ header {
   background-repeat: no-repeat;
   padding: 0;
   float: left;
-  margin: 40px 0 50px 29px;
+  margin: 40px 0 50px;
 }
 .navigation-bar__links {
   float: left;
@@ -253,6 +253,7 @@ ul.footer-container__social-links {
 }
 .breadcrumbs ul {
   list-style: none;
+  padding: 0;
 }
 .breadcrumbs li {
   float: left;
