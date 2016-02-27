@@ -173,11 +173,8 @@ footer h2 {
 ul.footer-container__social-links {
   margin-top: 10px;
 }
-.footer-container__social-links li {
-  display: inline-block;
-  float: left;
-  width: 33.3%;
-  margin: 0 10px;
+.footer-container__social-links li + li {
+  margin-left: 20px;
 }
 .footer-container__social-links li {
   display: inline-block;
@@ -186,6 +183,7 @@ ul.footer-container__social-links {
   width: 40px;
   text-align: center;
   border: 1px solid #606060;
+  float: left;
 }
 .footer-container__social-links img {
   position: relative;
@@ -211,6 +209,12 @@ ul.footer-container__social-links {
   font-size: 18px;
   font-style: italic;
   color: #606060;
+}
+.category__show-more:after{
+  content: url("../images/show-more-arrow.png");
+  position: relative;
+  top: 3px;
+  left: 5px;
 }
 .category__list{
   list-style: none;
