@@ -57,14 +57,18 @@ header {
   width: 40%;
 }
 .navigation-bar__actions ul {
-  float: right;
   list-style: none;
-  margin: 53px 25px 50px;
+  margin: 53px 0 50px;
+  padding: 0;
+  float: right;
 }
 .navigation-bar__actions li {
   display: inline-block;
-  margin: 0 25px 0 0;
   vertical-align: top;
+  float: left;
+}
+.navigation-bar__actions li + li {
+  margin: 0 0 0 50px;
 }
 .navigation-bar__action__search {
   border: 2px solid #959595;
