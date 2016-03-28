@@ -297,3 +297,66 @@ ul.footer-container__social-links {
   font-size: 12px;
   color: #b5b5b5;
 }
+
+/*purchase
+*/
+.shipping-address {
+  width: 580px;
+  margin: 0 auto;
+}
+.shipping-address h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+.shipping-address h1, .shipping-address p, .shipping-address__address-confirmation {
+  text-align: center;
+}
+.shipping-address p {
+  color: #757575;
+  font-style: italic;
+  font-size: 18px;
+}
+.shipping-address label {
+  display: block;
+  text-transform: uppercase;
+  padding: 0 0 5px 0;
+}
+.shipping-address__address-confirmation label {
+  text-transform: capitalize;
+  display: inline-block;
+}
+.shipping-address input:not([type="checkbox"]),
+ .shipping-address select {
+  height: 40px;
+  line-height: 40px;
+  background-color: transparent;
+  border: 1px solid;
+}
+.shipping-address__delivery select, .shipping-address__line1 input, .shipping-address__line2 input {
+  width: 580px;
+}
+.inline-inputs-1, .inline-inputs-2, .shipping-address__address-confirmation {
+  padding: 25px 0;
+}
+.inline-inputs-2 input {
+  width: 280px;
+}
+.inline-inputs-2 div:first-child{
+  float: left;
+}
+.inline-inputs-2 div:last-child{
+  float: right;
+}
+.shipping-address form {
+  margin: 60px 0 45px 0;
+  border-color: #c2c2c2;
+  color: #8a8a8a;
+  font-size: 12px;
+}
+.shipping-address form input {
+  padding-left: 5px;
+}
+.shipping-address p:first-letter {
+  text-transform: uppercase;
+}
