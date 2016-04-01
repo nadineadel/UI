@@ -18,6 +18,9 @@
 header {
   border-bottom: 1px solid #e5e5e5;
 }
+section header {
+  border: none;
+}
 .navigation-bar h1 {
   display: inline-block;
   font-size: 0;
@@ -302,11 +305,7 @@ ul.footer-container__social-links {
   width: 580px;
   margin: 0 auto;
 }
-.shipping-address h1 {
-  text-transform: uppercase;
-  margin-bottom: 0;
-  font-size: 36px;
-}
+
 .shipping-address h1, .shipping-address p, .shipping-address__address-confirmation {
   text-align: center;
 }
@@ -315,7 +314,7 @@ ul.footer-container__social-links {
   font-style: italic;
   font-size: 18px;
 }
-.shipping-address label {
+label {
   display: block;
   text-transform: uppercase;
   padding: 0 0 5px 0;
@@ -325,13 +324,13 @@ ul.footer-container__social-links {
   display: inline-block;
 }
 .shipping-address input:not([type="checkbox"]),
- .shipping-address select {
+select {
   height: 40px;
   line-height: 40px;
   background-color: transparent;
   border: 1px solid;
 }
-.shipping-address__delivery select, .shipping-address__line1 input, .shipping-address__line2 input {
+select, .shipping-address__line1 input, .shipping-address__line2 input {
   width: 580px;
 }
 .inline-inputs-1, .inline-inputs-2, .shipping-address__address-confirmation {
@@ -346,19 +345,35 @@ ul.footer-container__social-links {
 .inline-inputs-2 div:last-child{
   float: right;
 }
-.shipping-address form {
+form {
   margin: 60px 0 45px 0;
   border-color: #c2c2c2;
   color: #8a8a8a;
   font-size: 12px;
 }
-.shipping-address form input {
+form input {
   padding-left: 5px;
 }
 .shipping-address p:first-letter {
   text-transform: uppercase;
 }
+section header h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #303030;
+  text-align: center;
+  margin: 100px 0 20px;
+}
+section header p{
+  font-size: 18px;
+  font-style: italic;
+  color: #888888;
+  text-align: center;
+}
 
+.shopping-bag-grid {
+  padding-top: 100px;
+}
 /*grid*/
 .row{
   width: 100%;
@@ -516,9 +531,45 @@ ul.footer-container__social-links {
 }
 .shopping-bag-grid button {
   background: url("../images/delete.png") no-repeat center;
-  background-repeat: no-repeat;
   font-size: 0;
   height: 50px;
   width: 50px;
   border-color: transparent;
 }
+.payment-options {
+  margin-top: 75px;
+}
+.payment-options p, .payment-options span{
+  font-size: 18px;
+  color: #aaaaaa;
+}
+.payment-options p {
+  display: inline-block;
+  text-transform: capitalize;
+  margin: 0 0 25px 20px;
+}
+.payment-options span {
+  font-style: italic;
+}
+.payment-options__total p, .payment-options__total span {
+  color: #f89f6f;
+}
+
+.payment-options__method-order .submit {
+  text-transform: uppercase;
+  color: #fff;
+  background: #f68236;
+  padding: 20px 50px;
+  border: none;
+  margin-top: 40px;
+}
+.payment-options__method-order img {
+  position: relative;
+  right: 95px;
+  top: 5px;
+}
+.payment-options__method-order select {
+  text-transform: capitalize;
+}
+
+

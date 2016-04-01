@@ -41,8 +41,10 @@
     <main>
       <section>
         <div class="shopping-bag">
-          <h1>your shopping bag</h1>
-          <p>items reserved for limited time</p>
+          <header>
+            <h1>your shopping bag</h1>
+            <p>Items reserved for limited time</p>
+          </header>
           <div class="shopping-bag-grid">
             <div class="row clearfix">
               <div class="col-1">
@@ -151,9 +153,11 @@
       </section>
       <section>
         <div class="shipping-address">
-          <h1>shipping address</h1>
-          <p>all fields are required</p>
-          <form action="">
+          <header>
+            <h1>shipping address</h1>
+            <p>all fields are required</p>
+          </header>
+          <form>
             <div class="shipping-address__delivery inline-inputs-1">
               <label> select delivery method </label>
               <select name="select">
@@ -204,7 +208,39 @@
               <input type="checkbox"/>
               <label>use this address for billing</label>
             </div>
-            <input type="button" value="order now" class="submit">
+          </form>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h1>payment options</h1>
+          <p>all fields are required</p>
+        </header>
+        <div class="payment-options col-5-offset">
+          <div class="payment-options__subtotal">
+            <p>subtotal:</p>
+            <span class="euro-currency">5000</span>
+          </div>
+          <div class="payment-options__shipping">
+            <p>shipping:</p>
+            <span class="euro-currency">1000</span>
+          </div>
+          <div class="payment-options__total">
+            <p>total:</p>
+            <span class="euro-currency">6000</span>
+          </div>
+        </div>
+        <div class="payment-options__method-order">
+          <form>
+            <div class="col-3-offset">
+              <label>select payment method</label>
+              <select>
+                <option>credit card</option>
+                <option>debit card</option>
+              </select>
+              <img src="images/visa-mastercard.png">
+            </div>
+            <input type="button" value="order now" class="submit col-5-offset">
           </form>
         </div>
       </section>
